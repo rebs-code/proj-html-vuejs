@@ -77,6 +77,11 @@ export default {
             font-size: 0.8rem;
             text-transform: uppercase;
             cursor: pointer;
+
+            &:hover {
+                background-color: white;
+                color: black;
+            }
         }
     }
 }
