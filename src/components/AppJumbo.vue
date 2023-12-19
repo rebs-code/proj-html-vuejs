@@ -18,7 +18,7 @@ export default {
 
 <template>
     <div class="app-jumbo">
-        <div class="jumbo-container large-container">
+        <div class="jumbo-container container-fluid">
             <AppCardBlack class="AppCardBlack" :cardIntro="cardIntro" :cardTitle="cardTitle" :cardText="cardText"
                 :buttonText="buttonText" />
             <!-- <img src="../assets/img/slider52x.jpg" alt=""> -->
@@ -47,7 +47,6 @@ export default {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-
     }
 
     .AppCardBlack {

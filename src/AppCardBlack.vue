@@ -53,7 +53,7 @@ export default {
 .card-content {
     color: white;
     padding: 2rem;
-    padding-top: 0;
+    padding-left: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
 

@@ -16,7 +16,7 @@ export default {
 
 <template>
     <div class="app-header">
-        <div class="header-container large-container">
+        <div class="header-container container-fluid">
             <AppHeaderLogo />
             <AppHeaderMenu />
         </div>
@@ -37,6 +37,5 @@ export default {
     display: flex;
     align-items: center;
     padding: 1rem 1rem;
-    margin: 0 auto;
 }
 </style>
