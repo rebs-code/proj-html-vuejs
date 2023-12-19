@@ -21,6 +21,9 @@ export default {
                         consequat, ut. Metus, nullam scelerisque netus viverra dui.</p>
                     <img src="../assets/img/signature.jpg" alt="Chef Signature">
                 </div>
+                <div class="section-1-top-right col-6">
+                    <img src="../assets/img/info22x.jpg" alt="Chef" class="w-100">
+                </div>
 
             </div>
             <div class="section-1-bottom">
@@ -31,15 +34,16 @@ export default {
 </template>
 <style scoped lang="scss">
 .app-section-one {
-    padding: 130px;
-
     .section-1-top {
         display: flex;
         justify-content: space-between;
         align-items: center;
 
+        padding: 130px;
+
         .section-1-top-left {
-            padding: 60px;
+            padding: 0 50px 0 50px;
+            margin-right: 50px;
 
             p {
                 color: #999;
