@@ -2,6 +2,14 @@
 import AppCardBlack from '../AppCardBlack.vue';
 export default {
     name: 'AppJumbo',
+    data() {
+        return {
+            cardIntro: 'The Best Table in Town',
+            cardTitle: 'Fine dining experience',
+            cardText: 'Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelrisque nisi in urna nulla. Sit tempor a et nisl, ac felis.',
+            buttonText: 'Explore the menu'
+        }
+    },
     components: {
         AppCardBlack
     }
@@ -10,7 +18,7 @@ export default {
 
 <template>
     <div class="app-jumbo">
-        <AppCardBlack />
+        <AppCardBlack :cardIntro="cardIntro" :cardTitle="cardTitle" :cardText="cardText" :buttonText="buttonText" />
         <img src="../assets/img/slider52x.jpg" alt="">
     </div>
 </template>

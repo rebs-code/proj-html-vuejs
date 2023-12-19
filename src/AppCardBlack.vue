@@ -1,7 +1,28 @@
 <script>
 export default {
     name: 'AppCardBlack',
+    props: {
+        cardIntro: {
+            type: String,
 
+        },
+        cardTitle: {
+            type: String,
+
+        },
+        cardText: {
+            type: String,
+
+        },
+        cardInfo: {
+            type: String,
+
+        },
+        buttonText: {
+            type: String,
+
+        }
+    }
 }
 </script>
 
@@ -11,13 +32,12 @@ export default {
         <div class="card-content">
             <div class="title">
                 <hr>
-                <h4>The Best Table in Town</h4>
+                <h4>{{ cardIntro }}</h4>
             </div>
             <div class="info">
-
-                <h2>Fine dining experience</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                <button>Explore the menu</button>
+                <h2>{{ cardTitle }}</h2>
+                <p>{{ cardText }}</p>
+                <button>{{ buttonText }}</button>
             </div>
 
         </div>
