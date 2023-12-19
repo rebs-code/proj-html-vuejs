@@ -48,6 +48,7 @@ export default {
 <style scoped lang="scss">
 .app-card-black {
     background-color: transparent;
+    max-width: 500px;
 }
 
 .card-content {
