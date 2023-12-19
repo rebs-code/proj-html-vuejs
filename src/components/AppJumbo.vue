@@ -19,7 +19,8 @@ export default {
 <template>
     <div class="app-jumbo">
         <div class="jumbo-container container-fluid">
-            <AppCardBlack class="AppCardBlack" :cardIntro="cardIntro" :cardTitle="cardTitle" :cardText="cardText"
+            <!-- AppCardBlack component with props -->
+            <AppCardBlack class="col-4" :cardIntro="cardIntro" :cardTitle="cardTitle" :cardText="cardText"
                 :buttonText="buttonText" />
             <!-- <img src="../assets/img/slider52x.jpg" alt=""> -->
         </div>
@@ -47,11 +48,6 @@ export default {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-    }
-
-    .AppCardBlack {
-        width: 33%;
-        margin-right: auto;
     }
 }
 </style>

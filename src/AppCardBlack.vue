@@ -36,7 +36,7 @@ export default {
             </div>
             <div class="info">
                 <h2>{{ cardTitle }}</h2>
-                <p>{{ cardText }}</p>
+                <p class="text-size">{{ cardText }}</p>
                 <button>{{ buttonText }}</button>
             </div>
 
@@ -55,7 +55,6 @@ export default {
     padding: 2rem;
     padding-left: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 
     h2 {
         font-size: 3rem;
