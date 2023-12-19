@@ -11,18 +11,19 @@ export default {
 <template>
     <div class="app-jumbo">
         <AppCardBlack />
+        <img src="../assets/img/slider52x.jpg" alt="">
     </div>
 </template>
 
 <style scoped lang="scss">
 .app-jumbo {
-    height: 1000px;
+    height: 980px;
     background-color: black;
-    padding: 2rem 0;
-    background-image: url('../assets/img/slider52x.jpg');
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-    object-fit: scale-down;
+    display: flex;
+    align-items: center;
+
+    img {
+        height: 100%;
+    }
 }
 </style>
