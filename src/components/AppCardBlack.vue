@@ -90,14 +90,7 @@ export default {
         margin-left: 100px;
 
         button {
-            max-width: 230px;
-            background-color: transparent;
             color: white;
-            border: 1px solid white;
-            padding: 15px 30px;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            cursor: pointer;
 
             &:hover {
                 background-color: white;
