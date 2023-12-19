@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <h1>Hello world i am a font</h1>
+  <h1 class="league-gothic">HELLO EVERYONE </h1>
   <p>hello world i am a font</p>
 </template>
 
