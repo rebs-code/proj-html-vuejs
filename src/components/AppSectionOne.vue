@@ -11,7 +11,9 @@ export default {
         <div class="container-fluid">
             <div class="section-1-top">
                 <div class="section-1-top-left col-6">
-                    <p class="text-size">Hac tellus, felis risus at mattis mattis. Eget euismod semper eget tortor, donec
+                    <p class="text-size"><span class="fw-bold text-uppercase">Hac tellus, felis risus at</span> mattis
+                        mattis. Eget euismod semper eget
+                        tortor, donec
                         amet, blandit.
                         Tristisque facilisi faucibus elementum feugiat in nam in feugiat. Ipsum odio etiam dius facilis amet
                         vulputate.</p>
@@ -23,6 +25,7 @@ export default {
                 </div>
                 <div class="section-1-top-right col-6">
                     <img src="../assets/img/info22x.jpg" alt="Chef" class="w-100">
+                    <h6 class="text-size">California Rolls - $22</h6>
                 </div>
 
             </div>
@@ -46,7 +49,6 @@ export default {
             margin-right: 50px;
 
             p {
-                color: #999;
                 margin-bottom: 60px;
             }
 
@@ -58,6 +60,22 @@ export default {
 
             img {
                 width: 200px;
+            }
+        }
+
+        .section-1-top-right {
+            position: relative;
+
+            h6 {
+                margin-top: 30px;
+                font-weight: 400;
+                text-transform: uppercase;
+                position: absolute;
+                left: 50%;
+                bottom: 5%;
+                transform: translateX(-50%);
+                color: white;
+                font-weight: bold;
             }
         }
     }
