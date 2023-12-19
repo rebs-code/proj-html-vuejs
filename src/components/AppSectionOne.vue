@@ -57,11 +57,11 @@ export default {
 
             </div>
             <div class="section-1-bottom">
-                <AppCardWhite class="col-4" :cardImage="cardInfo[0].cardImage" :cardTitle="cardInfo[0].cardTitle"
+                <AppCardWhite class="col-3 card-white" :cardImage="cardInfo[0].cardImage" :cardTitle="cardInfo[0].cardTitle"
                     :cardText="cardInfo[0].cardText" :buttonText="cardInfo[0].buttonText" />
-                <AppCardWhite class="col-4" :cardImage="cardInfo[1].cardImage" :cardTitle="cardInfo[1].cardTitle"
+                <AppCardWhite class="col-3 card-white" :cardImage="cardInfo[1].cardImage" :cardTitle="cardInfo[1].cardTitle"
                     :cardText="cardInfo[1].cardText" :buttonText="cardInfo[1].buttonText" />
-                <AppCardWhite class="col-4" :cardImage="cardInfo[2].cardImage" :cardTitle="cardInfo[2].cardTitle"
+                <AppCardWhite class="col-3 card-white" :cardImage="cardInfo[2].cardImage" :cardTitle="cardInfo[2].cardTitle"
                     :cardText="cardInfo[2].cardText" :buttonText="cardInfo[2].buttonText" />
 
             </div>
@@ -70,6 +70,8 @@ export default {
 </template>
 <style scoped lang="scss">
 .app-section-one {
+    margin-bottom: 130px;
+
     .section-1-top {
         display: flex;
         justify-content: space-between;
@@ -78,7 +80,7 @@ export default {
         padding: 130px;
 
         .section-1-top-left {
-            padding: 0 50px 0 50px;
+            padding: 0 25px 0 25px;
             margin-right: 50px;
 
             p {
@@ -115,8 +117,15 @@ export default {
 
     .section-1-bottom {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        padding: 0 20px;
+
+        .card-white {
+            margin: 0 10px;
+            padding: 0 30px;
+            text-align: center;
+        }
     }
 }
 </style>
