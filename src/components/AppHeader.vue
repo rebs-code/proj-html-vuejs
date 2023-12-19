@@ -25,13 +25,15 @@ export default {
 
 <style scoped lang="scss">
 .app-header {
-    background-color: dodgerblue;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .header-container {
     height: 160px;
-    background-color: rgb(233, 64, 64);
     display: flex;
     align-items: center;
     padding: 1rem 1rem;
