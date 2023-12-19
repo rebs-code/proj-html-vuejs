@@ -48,20 +48,22 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use '../assets/scss/partials/variables' as *;
+
 ul {
     display: flex;
     margin-left: auto;
 
     li {
         margin-right: 40px;
-        color: white;
 
         a {
-            color: white;
+            color: $silver;
             text-decoration: none;
 
             &:hover {
                 text-decoration: underline;
+                color: white;
             }
         }
     }
