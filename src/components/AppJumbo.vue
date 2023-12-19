@@ -18,8 +18,11 @@ export default {
 
 <template>
     <div class="app-jumbo">
-        <AppCardBlack :cardIntro="cardIntro" :cardTitle="cardTitle" :cardText="cardText" :buttonText="buttonText" />
-        <img src="../assets/img/slider52x.jpg" alt="">
+        <div class="jumbo-container large-container">
+            <AppCardBlack class="AppCardBlack" :cardIntro="cardIntro" :cardTitle="cardTitle" :cardText="cardText"
+                :buttonText="buttonText" />
+            <!-- <img src="../assets/img/slider52x.jpg" alt=""> -->
+        </div>
     </div>
 </template>
 
@@ -27,12 +30,29 @@ export default {
 .app-jumbo {
     height: 980px;
     background-color: black;
+    background-image: url('../assets/img/slider52x.jpg');
+    background-size: 66% 980px;
+    background-repeat: no-repeat;
+    background-position: right;
     display: flex;
-    align-items: center;
+    justify-content: center;
 
-    img {
+    // img {
+    //     height: 100%;
+    //     flex-grow: 1;
+    // }
+
+    .jumbo-container {
         height: 100%;
-        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    .AppCardBlack {
+        width: 33%;
+        margin-right: auto;
     }
 }
 </style>

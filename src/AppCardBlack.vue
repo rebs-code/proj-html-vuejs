@@ -48,7 +48,6 @@ export default {
 <style scoped lang="scss">
 .app-card-black {
     background-color: transparent;
-    max-width: 500px;
 }
 
 .card-content {
@@ -65,8 +64,6 @@ export default {
     }
 
     p {
-
-
         margin-bottom: 70px;
     }
 

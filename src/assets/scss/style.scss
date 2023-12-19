@@ -3,3 +3,5 @@
 @use "./partials/fonts" as *;
 @use "./partials/reset" as *;
 @use "./partials/utilities" as *;
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
