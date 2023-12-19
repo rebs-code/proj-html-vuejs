@@ -1,9 +1,20 @@
 <script>
+//import components into the App.vue file
+import AppHeader from './components/AppHeader.vue'
+export default {
+  name: 'App',
+  components: {
+    AppHeader
+  }
+}
+
 </script>
 
 <template>
-  <h1 class="league-gothic">HELLO EVERYONE </h1>
-  <p>hello world i am a font</p>
+  <div id="app">
+    <!-- app-header component -->
+    <AppHeader />
+  </div>
 </template>
 
 <style scoped lang="scss"></style>
