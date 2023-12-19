@@ -29,14 +29,15 @@ export default {
 <template>
     <div class="app-card-white">
 
-        <div class="card-content">
-            <div class="image-div">
+        <div class="card-content p-2">
+            <div class="image-div mb-5">
                 <img :src="cardImage" :alt="cardImage" class="m-auto">
-                <hr>
+
             </div>
             <div class="info">
                 <h4>{{ cardTitle }}</h4>
-                <p class="text-size">{{ cardText }}</p>
+                <hr>
+                <p class="text-size pb-3">{{ cardText }}</p>
                 <AppButtonComponent :buttonText="buttonText" />
             </div>
         </div>
@@ -45,14 +46,15 @@ export default {
 </template>
 
 <style scoped lang="scss">
+.app-card-white {}
+
 .info {
-    height: 330px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 
     button {
+        margin-top: auto;
 
         &:hover {
             background-color: black;
@@ -61,9 +63,9 @@ export default {
     }
 }
 
-.image-div hr {
+.info hr {
     width: 50px;
     border: 1px solid;
-    margin: 50px auto 50px auto;
+    margin: 25px auto 25px auto;
 }
 </style>
