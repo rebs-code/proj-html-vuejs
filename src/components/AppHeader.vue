@@ -20,4 +20,14 @@ export default {
     </div>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 80px;
+    background-color: dodgerblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+</style>
