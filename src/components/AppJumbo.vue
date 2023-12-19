@@ -1,5 +1,5 @@
 <script>
-import AppCardBlack from '../AppCardBlack.vue';
+import AppCardBlack from './AppCardBlack.vue';
 export default {
     name: 'AppJumbo',
     data() {

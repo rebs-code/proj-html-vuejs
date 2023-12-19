@@ -1,6 +1,10 @@
 <script>
+import AppButtonComponent from './AppButtonComponent.vue';
 export default {
     name: 'AppCardBlack',
+    components: {
+        AppButtonComponent
+    },
     props: {
         cardIntro: {
             type: String,
@@ -37,7 +41,7 @@ export default {
             <div class="info">
                 <h2>{{ cardTitle }}</h2>
                 <p class="text-size">{{ cardText }}</p>
-                <button>{{ buttonText }}</button>
+                <AppButtonComponent :buttonText="buttonText" />
             </div>
 
         </div>

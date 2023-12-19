@@ -1,6 +1,33 @@
 <script>
+import AppCardWhite from './AppCardWhite.vue';
 export default {
     name: 'AppSectionOne',
+    data() {
+        return {
+            cardInfo: [{
+                cardImage: '../public/img/sushi-1.png',
+                cardTitle: 'The Best Table in Town',
+                cardText: 'Sed aenean egestas ut aliquam turpis mauris, molestie. Vitae tellus tempor sem id tempus neque, tellus turpis turpis. Morbi tortor id gravida aliquet.',
+                buttonText: 'Explore the menu'
+            },
+            {
+                cardImage: '../public/img/sushi-2.png',
+                cardTitle: 'Perfect for Groups',
+                cardText: 'Quam eu proin sit massa condimentum, Volutpat non pulvinar aliquet nunc. Orci elementum in aliquet a gravida vivamus aliquam turpis vitae.',
+                buttonText: 'Make a reservation'
+            },
+            {
+                cardImage: '../public/img/sushi-3.png',
+                cardTitle: 'Fresh Produce Everyday',
+                cardText: 'Hendrerit amet, volutpat leo non, commodo meacenas scelerisque ticindunt. Morbi voluptate morbi purus quisque sit sagittis orci elementum gravida.',
+                buttonText: 'Learn more about us'
+            }
+            ]
+        }
+    },
+    components: {
+        AppCardWhite,
+    },
 
 
 }
@@ -30,6 +57,12 @@ export default {
 
             </div>
             <div class="section-1-bottom">
+                <AppCardWhite class="col-4" :cardImage="cardInfo[0].cardImage" :cardTitle="cardInfo[0].cardTitle"
+                    :cardText="cardInfo[0].cardText" :buttonText="cardInfo[0].buttonText" />
+                <AppCardWhite class="col-4" :cardImage="cardInfo[1].cardImage" :cardTitle="cardInfo[1].cardTitle"
+                    :cardText="cardInfo[1].cardText" :buttonText="cardInfo[1].buttonText" />
+                <AppCardWhite class="col-4" :cardImage="cardInfo[2].cardImage" :cardTitle="cardInfo[2].cardTitle"
+                    :cardText="cardInfo[2].cardText" :buttonText="cardInfo[2].buttonText" />
 
             </div>
         </div>
