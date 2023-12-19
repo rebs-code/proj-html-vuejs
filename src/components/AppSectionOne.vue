@@ -19,6 +19,7 @@ export default {
                     <p class="text-size">Tristique tempus condimentum diam donec. Condimentuim ullamcorper sit elementum
                         gendrerit mi nilla in
                         consequat, ut. Metus, nullam scelerisque netus viverra dui.</p>
+                    <img src="../assets/img/signature.jpg" alt="Chef Signature">
                 </div>
 
             </div>
@@ -30,7 +31,6 @@ export default {
 </template>
 <style scoped lang="scss">
 .app-section-one {
-    background-color: #f5f5f5;
     padding: 130px;
 
     .section-1-top {
@@ -50,6 +50,10 @@ export default {
                 margin-bottom: 60px;
                 line-height: 1.4;
                 font-size: 2.5rem;
+            }
+
+            img {
+                width: 200px;
             }
         }
     }
