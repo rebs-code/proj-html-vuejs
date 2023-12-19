@@ -17,7 +17,7 @@ export default {
 button {
     max-width: 250px;
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid;
     padding: 15px 30px;
     font-size: 0.8rem;
     text-transform: uppercase;

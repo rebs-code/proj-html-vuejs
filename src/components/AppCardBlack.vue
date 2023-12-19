@@ -80,9 +80,9 @@ export default {
             width: 70px;
         }
 
-        H4 {
+        h4 {
             margin-left: 30px;
-            font-size: 1.5rem;
+            font-size: 1.1rem;
         }
     }
 

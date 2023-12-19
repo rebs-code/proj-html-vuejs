@@ -44,4 +44,13 @@ export default {
     </div>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.info {
+    button {
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+    }
+}
+</style>
