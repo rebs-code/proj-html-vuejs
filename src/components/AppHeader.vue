@@ -30,7 +30,8 @@ export default {
 }
 
 .header-container {
-    background-color: red;
+    height: 160px;
+    background-color: rgb(233, 64, 64);
     display: flex;
     align-items: center;
     padding: 1rem 1rem;
