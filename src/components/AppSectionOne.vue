@@ -7,7 +7,7 @@ export default {
 
 </script>
 <template>
-    <div class="app-section-one">
+    <div class="app-section-one px-5">
         <div class="container-fluid">
             <div class="section-1-top">
                 <div class="section-1-top-left col-6">

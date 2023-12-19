@@ -17,7 +17,7 @@ export default {
 </script>
 
 <template>
-    <div class="app-jumbo">
+    <div class="app-jumbo px-5">
         <div class="jumbo-container container-fluid">
             <!-- AppCardBlack component with props -->
             <AppCardBlack class="col-4" :cardIntro="cardIntro" :cardTitle="cardTitle" :cardText="cardText"
