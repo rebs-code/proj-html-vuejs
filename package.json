@@ -11,6 +11,7 @@
   "dependencies": {
     "@fontsource/barlow-condensed": "^5.0.8",
     "@fontsource/league-gothic": "^5.0.18",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "vue": "^3.3.11"
   },
   "devDependencies": {
