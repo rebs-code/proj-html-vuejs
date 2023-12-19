@@ -6,7 +6,8 @@ import AppHeaderMenu from './AppHeaderMenu.vue'
 export default {
     name: 'AppHeader',
     components: {
-        AppHeaderLogo
+        AppHeaderLogo,
+        AppHeaderMenu
     }
 }
 
@@ -31,9 +32,8 @@ export default {
 .header-container {
     background-color: red;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     margin: 0 auto;
 }
 </style>

@@ -32,16 +32,38 @@ export default {
                     name: 'Reservations',
                     link: '#'
                 },
-                {
-                    name: 'Contact Us',
-                    link: '#'
-                }
             ]
         }
     }
 }
 </script>
 
-<template></template>
+<template>
+    <ul>
+        <li v-for="item in menuItems">
+            <a :href="item.link" v-html="item.name"></a>
+        </li>
+        <li> <a href="#"><font-awesome-icon icon="fa-solid fa-cart-shopping" /></a></li>
+    </ul>
+</template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+ul {
+    display: flex;
+    margin-left: auto;
+
+    li {
+        margin-right: 40px;
+        color: white;
+
+        a {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+</style>
