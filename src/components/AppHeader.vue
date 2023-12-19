@@ -15,19 +15,24 @@ export default {
 
 <template>
     <div class="app-header">
-        <AppHeaderLogo />
-        <AppHeaderMenu />
+        <div class="header-container large-container">
+            <AppHeaderLogo />
+            <AppHeaderMenu />
+        </div>
     </div>
 </template>
 
 <style scoped lang="scss">
 .app-header {
+    background-color: dodgerblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
-    height: 80px;
-    background-color: dodgerblue;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto
 }
 </style>
