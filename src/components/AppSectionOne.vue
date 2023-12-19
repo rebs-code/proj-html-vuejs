@@ -34,7 +34,7 @@ export default {
 
 </script>
 <template>
-    <div class="app-section-one">
+    <section class="app-section-one">
         <div class="container-fluid px-5">
             <div class="section-1-top">
                 <div class="section-1-top-left col-6">
@@ -66,7 +66,7 @@ export default {
 
             </div>
         </div>
-    </div>
+    </section>
 </template>
 <style scoped lang="scss">
 .app-section-one {
