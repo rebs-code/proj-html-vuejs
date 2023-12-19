@@ -7,8 +7,8 @@ export default {
 
 </script>
 <template>
-    <div class="app-section-one px-5">
-        <div class="container-fluid">
+    <div class="app-section-one">
+        <div class="container-fluid px-5">
             <div class="section-1-top">
                 <div class="section-1-top-left col-6">
                     <p class="text-size"><span class="fw-bold text-uppercase">Hac tellus, felis risus at</span> mattis

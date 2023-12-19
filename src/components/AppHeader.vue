@@ -15,8 +15,8 @@ export default {
 </script>
 
 <template>
-    <div class="app-header px-5">
-        <div class="header-container container-fluid">
+    <div class="app-header">
+        <div class="header-container container-fluid px-5">
             <AppHeaderLogo />
             <AppHeaderMenu />
         </div>
