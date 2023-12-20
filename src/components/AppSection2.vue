@@ -1,9 +1,56 @@
 <script>
+import AppCardBlackSecondary from './AppCardBlackSecondary.vue';
+
 export default {
     name: 'AppSection2',
+    components: { AppCardBlackSecondary }
 }
 </script>
 
-<template></template>
+<template>
+    <div class="app-section-2">
+        <div class="container py-5">
+            <h2 class="py-5 text-center">What critics are saying about us</h2>
+            <hr>
 
-<style scoped lang="scss"></style>
+            <div class="col-12 section2-top d-flex">
+                <div class="col-6 left d-flex align-items-center justify-content-center">
+                    <AppCardBlackSecondary cardCritic="Meggy Stewart" cardTitle="New York Times"
+                        cardText="Non arcu mauria tortor iutrices mollis tellus euismod fermentum. Habitant amet ticindunt id sapien accusamen sed at."
+                        cardTextSecondary="Mmalesuada ullamcorper amet. Pretium pretium dignissim nisi."
+                        buttonText="Read full article" class="cardBlack" />
+                </div>
+
+
+            </div>
+
+
+            <div class="col-4 try">
+
+
+            </div>
+            <div class="col-4 try">
+
+
+            </div>
+        </div>
+
+
+    </div>
+</template>
+
+<style scoped lang="scss">
+.cardBlack {
+    width: 400px;
+    height: 550px;
+}
+
+.section2-top {
+    height: 840px;
+    background-color: rgb(94, 161, 219);
+
+    .left {
+        background-color: black;
+    }
+}
+</style>

@@ -14,9 +14,10 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* import specific icons */
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
-library.add(faCartShopping);
+library.add(faCartShopping, faStar);
 
 //import vue starting file
 import App from "./App.vue";

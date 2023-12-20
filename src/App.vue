@@ -26,10 +26,12 @@ export default {
       buttonText='Explore the menu' imageUrl='../public/img/slider52x.jpg' />
     <!-- app-section-1 component -->
     <AppSection1 />
-    <!-- app section 2 component -->
+    <!-- jumbo repeat component -->
     <AppJumbo class="jumbo-2" cardIntro='Fine dining experience' cardTitle='The Best Table in Town'
       cardText='Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelrisque nisi in urna nulla. Sit tempor a et nisl, ac felis.'
       buttonText='Explore the menu' imageUrl='../public/img/slider32x.jpg' applyReverseStyle />
+    <!-- app section 2 component -->
+    <AppSection2 />
 
   </div>
 </template>
