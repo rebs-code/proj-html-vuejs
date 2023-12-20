@@ -40,11 +40,11 @@ export default {
         <div class="card-content">
             <h4>{{ cardCritic }}</h4>
             <h2>{{ cardTitle }}</h2>
-            <span v-for="n in 5"><font-awesome-icon icon="fa-solid fa-star" /></span>
-            <hr>
+            <span v-for="n in 5" class="me-1"><font-awesome-icon icon="fa-solid fa-star" /></span>
+            <hr class="my-5">
             <p class="text-size">{{ cardText }} </p>
             <p class="text-size">{{ cardTextSecondary }} </p>
-            <AppButtonComponent :buttonText="buttonText" />
+            <AppButtonComponent :buttonText="buttonText" class="mt-3" />
         </div>
     </div>
 </template>
@@ -72,7 +72,7 @@ h2 {
 }
 
 p {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 hr {

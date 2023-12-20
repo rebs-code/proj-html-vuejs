@@ -10,8 +10,11 @@ export default {
 <template>
     <div class="app-section-2">
         <div class="container py-5">
-            <h2 class="py-5 text-center">What critics are saying about us</h2>
-            <hr>
+            <div class="title d-flex flex-column align-items-center mb-5">
+                <h2 class="py-5 fst-italic">What critics are saying about us</h2>
+                <hr class="hr">
+            </div>
+
 
             <div class="col-12 section2-top d-flex justify-content-end">
                 <div class="col-6 left d-flex align-items-center justify-content-center">
@@ -40,9 +43,17 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use '../assets/scss/partials/variables' as *;
+
 .cardBlack {
     width: 400px;
     height: 550px;
+}
+
+.hr {
+    width: 70px;
+    height: 1px;
+    background-color: $silver;
 }
 
 .section2-top {
