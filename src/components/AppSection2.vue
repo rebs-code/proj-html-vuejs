@@ -86,7 +86,7 @@ export default {
     }
 
     &> :first-child {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../public/img/info52x.jpg');
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../public/img/info52x.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -94,7 +94,7 @@ export default {
     }
 
     &> :nth-child(2) {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../public/img/info12x.jpg');
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0) 100%), url('../public/img/info12x.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;

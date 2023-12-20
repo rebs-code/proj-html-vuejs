@@ -39,7 +39,7 @@ export default {
 
         <div class="card-content">
             <h4>{{ cardCritic }}</h4>
-            <h2>{{ cardTitle }}</h2>
+            <h2 class="fw-bold">{{ cardTitle }}</h2>
             <span v-for="n in 5" class="me-1"><font-awesome-icon icon="fa-solid fa-star" /></span>
             <hr class="my-5">
             <p class="text-size">{{ cardText }} </p>
