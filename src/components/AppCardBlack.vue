@@ -25,7 +25,7 @@ export default {
         buttonText: {
             type: String,
 
-        }
+        },
     }
 }
 </script>
@@ -56,8 +56,7 @@ export default {
 
 .card-content {
     color: white;
-    padding: 2rem;
-    padding-left: 0;
+    padding: 2rem 2rem 2rem 0;
 
     h2 {
         font-size: 3.2rem;

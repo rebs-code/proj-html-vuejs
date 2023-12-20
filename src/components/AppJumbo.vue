@@ -18,7 +18,7 @@ export default {
 
 <template>
     <div class="app-jumbo" :class="{ 'reverse-style': applyReverseStyle }">
-        <div class="jumbo-container container-fluid px-5" :style="{ backgroundImage: `url(${imageUrl})` }">
+        <div class="jumbo-container container-fluid" :style="{ backgroundImage: `url(${imageUrl})` }">
             <!-- AppCardBlack component with props -->
             <AppCardBlack class="col-4" :cardIntro="cardIntro" :cardTitle="cardTitle" :cardText="cardText"
                 :buttonText="buttonText" />
@@ -39,6 +39,7 @@ export default {
         background-size: 66% 980px;
         background-repeat: no-repeat;
         background-position: right;
+        padding-left: 3rem;
     }
 }
 
@@ -46,5 +47,6 @@ export default {
 .reverse-style .jumbo-container {
     justify-content: flex-end;
     background-position: left;
+    padding-left: 0;
 }
 </style>
