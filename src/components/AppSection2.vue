@@ -1,10 +1,6 @@
 <script>
-import AppCardBlack from './AppCardBlack.vue';
 export default {
     name: 'AppSection2',
-    components: {
-        AppCardBlack,
-    },
 }
 </script>
 

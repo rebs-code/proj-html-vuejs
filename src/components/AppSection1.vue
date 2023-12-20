@@ -35,9 +35,9 @@ export default {
 </script>
 <template>
     <section class="app-section-one">
-        <div class="container-fluid px-5">
+        <div class="container">
             <!-- section 1 top -->
-            <div class="section-1-top">
+            <div class="section-1-top py-5">
                 <!-- section 1 top left -->
                 <div class="section-1-top-left col-6">
                     <p class="text-size"><span class="fw-bold text-uppercase">Hac tellus, felis risus at</span> mattis
@@ -81,7 +81,7 @@ export default {
         justify-content: space-between;
         align-items: center;
 
-        padding: 130px;
+
 
         .section-1-top-left {
             padding: 0 25px 0 25px;

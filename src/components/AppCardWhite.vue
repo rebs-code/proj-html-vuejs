@@ -52,6 +52,10 @@ export default {
     align-items: center;
     min-height: 310px;
 
+    h4 {
+        font-size: 1.35rem;
+    }
+
     button {
         margin-top: auto;
 
