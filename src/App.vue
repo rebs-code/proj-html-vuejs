@@ -29,20 +29,17 @@ export default {
     <!-- app section 2 component -->
     <AppJumbo class="jumbo-2" cardIntro='Fine dining experience' cardTitle='The Best Table in Town'
       cardText='Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelrisque nisi in urna nulla. Sit tempor a et nisl, ac felis.'
-      buttonText='Explore the menu' />
+      buttonText='Explore the menu' imageUrl='../public/img/slider32x.jpg' applyReverseStyle />
 
   </div>
 </template>
 
-<style scoped lang="scss" deep>
-.jumbo-2 .jumbo-container {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  background-image: url('../public/img/sushi-2.png');
-  background-size: 36% 980px;
-  background-repeat: repeat;
-  background-position: right;
+<style scoped lang="scss">
+.jumbo-2 {
+  height: 880px;
+
+  .jumbo-container {
+    flex-direction: column;
+  }
 }
 </style>
