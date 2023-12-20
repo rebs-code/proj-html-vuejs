@@ -37,9 +37,5 @@ export default {
 <style scoped lang="scss">
 .jumbo-2 {
   height: 880px;
-
-  .jumbo-container {
-    flex-direction: column;
-  }
 }
 </style>
