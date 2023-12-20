@@ -23,17 +23,26 @@ export default {
     <!-- app-jumbo component -->
     <AppJumbo cardIntro='The Best Table in Town' cardTitle='Fine dining experience'
       cardText='Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelrisque nisi in urna nulla. Sit tempor a et nisl, ac felis.'
-      buttonText='Explore the menu' />
+      buttonText='Explore the menu' imageUrl='../public/img/slider52x.jpg' />
     <!-- app-section-1 component -->
     <AppSection1 />
     <!-- app section 2 component -->
-    <AppJumbo class="jumbo-2" cardIntro="lele" />
+    <AppJumbo class="jumbo-2" cardIntro='Fine dining experience' cardTitle='The Best Table in Town'
+      cardText='Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelrisque nisi in urna nulla. Sit tempor a et nisl, ac felis.'
+      buttonText='Explore the menu' />
 
   </div>
 </template>
 
-<style scoped lang="scss">
-.jumbo-2 {
-  background-color: red;
+<style scoped lang="scss" deep>
+.jumbo-2 .jumbo-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url('../public/img/sushi-2.png');
+  background-size: 36% 980px;
+  background-repeat: repeat;
+  background-position: right;
 }
 </style>
