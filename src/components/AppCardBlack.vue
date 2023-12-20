@@ -40,7 +40,7 @@ export default {
         <div class="card-content">
             <div class="title">
                 <hr>
-                <h4>{{ cardIntro }}</h4>
+                <h4 class="text-uppercase">{{ cardIntro }}</h4>
             </div>
             <div class="info">
                 <h2>{{ cardTitle }}</h2>

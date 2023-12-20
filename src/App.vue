@@ -40,12 +40,20 @@ export default {
     <AppSection3 />
     <!-- app section 4 component -->
     <AppSection4 />
+    <!-- jumbo component repeats -->
+    <AppJumbo cardIntro='Enjoy your meal at home' cardTitle='Takeout now available'
+      cardText='Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelrisque nisi in urna nulla. Sit tempor a et nisl, ac felis.'
+      buttonText='View Takeout Menu' imageUrl='img/slider72x-scaled.jpg' class="jumbo-3" applyReverseStyle />
 
   </div>
 </template>
 
 <style scoped lang="scss">
 .jumbo-2 {
+  height: 880px;
+}
+
+.jumbo-3 {
   height: 880px;
 }
 </style>
