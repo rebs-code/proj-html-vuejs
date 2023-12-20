@@ -47,7 +47,6 @@ export default {
 
 .section2-top {
     height: 840px;
-    background-color: rgb(94, 161, 219);
     background-image: url('../public/img/blog72x.jpg');
     background-repeat: no-repeat;
     background-size: 50% 100%;

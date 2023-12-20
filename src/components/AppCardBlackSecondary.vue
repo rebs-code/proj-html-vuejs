@@ -82,5 +82,10 @@ hr {
 
 button {
     color: white;
+
+    &:hover {
+        color: black;
+        background-color: white;
+    }
 }
 </style>
