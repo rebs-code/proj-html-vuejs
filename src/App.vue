@@ -5,6 +5,7 @@ import AppJumbo from './components/AppJumbo.vue'
 import AppSection1 from './components/AppSection1.vue';
 import AppSection2 from './components/AppSection2.vue';
 import AppSection3 from './components/AppSection3.vue';
+import AppSection4 from './components/AppSection4.vue';
 export default {
   name: 'App',
   components: {
@@ -12,7 +13,8 @@ export default {
     AppJumbo,
     AppSection1,
     AppSection2,
-    AppSection3
+    AppSection3,
+    AppSection4
   }
 }
 
@@ -36,6 +38,8 @@ export default {
     <AppSection2 />
     <!-- app section 3 component -->
     <AppSection3 />
+    <!-- app section 4 component -->
+    <AppSection4 />
 
   </div>
 </template>
