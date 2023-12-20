@@ -26,17 +26,15 @@ export default {
             </div>
             <!-- bottom section -->
             <div class="col-12 section2-bottom">
-                <div class="bottom-card">
-                    <AppCardBlackSecondary cardCritic="Meggy Stewart" cardTitle="New York Times"
+                <div class="bottom-card card-1">
+                    <AppCardBlackSecondary cardCritic="Mary Maxey" cardTitle="The Guardian"
                         cardText="Non arcu mauria tortor iutrices mollis tellus euismod fermentum. Habitant amet ticindunt id sapien accusamen sed at."
-                        cardTextSecondary="Mmalesuada ullamcorper amet. Pretium pretium dignissim nisi."
                         buttonText="Read full article" class="cardBlack" />
 
                 </div>
                 <div class="bottom-card">
-                    <AppCardBlackSecondary cardCritic="Meggy Stewart" cardTitle="New York Times"
+                    <AppCardBlackSecondary cardCritic="Patrick Monroe" cardTitle="Globe and Mail"
                         cardText="Non arcu mauria tortor iutrices mollis tellus euismod fermentum. Habitant amet ticindunt id sapien accusamen sed at."
-                        cardTextSecondary="Mmalesuada ullamcorper amet. Pretium pretium dignissim nisi."
                         buttonText="Read full article" class="cardBlack" />
                 </div>
             </div>
@@ -80,14 +78,26 @@ export default {
     justify-content: space-between;
     margin-top: 60px;
 
-    background-color: rgb(78, 49, 49);
-
     .bottom-card {
-        background-color: black;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 47%;
+    }
+
+    &> :first-child {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../public/img/info52x.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    &> :nth-child(2) {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../public/img/info12x.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }
 </style>
