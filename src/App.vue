@@ -4,13 +4,15 @@ import AppHeader from './components/AppHeader.vue'
 import AppJumbo from './components/AppJumbo.vue'
 import AppSection1 from './components/AppSection1.vue';
 import AppSection2 from './components/AppSection2.vue';
+import AppSection3 from './components/AppSection3.vue';
 export default {
   name: 'App',
   components: {
     AppHeader,
     AppJumbo,
     AppSection1,
-    AppSection2
+    AppSection2,
+    AppSection3
   }
 }
 
@@ -32,6 +34,8 @@ export default {
       buttonText='Explore the menu' imageUrl='../public/img/slider32x.jpg' applyReverseStyle />
     <!-- app section 2 component -->
     <AppSection2 />
+    <!-- app section 3 component -->
+    <AppSection3 />
 
   </div>
 </template>

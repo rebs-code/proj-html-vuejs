@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-    <div class="app-section-2">
+    <section class="app-section-2">
         <!-- container -->
         <div class="container py-5">
             <div class="title d-flex flex-column align-items-center mb-5">
@@ -43,7 +43,7 @@ export default {
         </div>
 
 
-    </div>
+    </section>
 </template>
 
 <style scoped lang="scss">
