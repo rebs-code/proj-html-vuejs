@@ -1,7 +1,7 @@
 <script>
 import AppCardWhite from './AppCardWhite.vue';
 export default {
-    name: 'AppSectionOne',
+    name: 'AppSection1',
     data() {
         return {
             cardInfo: [{
@@ -94,7 +94,7 @@ export default {
             h2 {
                 margin-bottom: 60px;
                 line-height: 1.4;
-                font-size: 2.5rem;
+                font-size: 2.8rem;
             }
 
             img {
@@ -122,7 +122,7 @@ export default {
     .section-1-bottom {
         display: flex;
         justify-content: center;
-        // align-items: flex-end;
+        // align-items: stretch;
         padding: 0 20px;
 
         .card-white {

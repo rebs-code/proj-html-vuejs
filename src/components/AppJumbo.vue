@@ -2,17 +2,15 @@
 import AppCardBlack from './AppCardBlack.vue';
 export default {
     name: 'AppJumbo',
-    data() {
-        return {
-            cardIntro: 'The Best Table in Town',
-            cardTitle: 'Fine dining experience',
-            cardText: 'Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelrisque nisi in urna nulla. Sit tempor a et nisl, ac felis.',
-            buttonText: 'Explore the menu'
-        }
-    },
     components: {
         AppCardBlack
-    }
+    },
+    props: {
+        cardIntro: String,
+        cardTitle: String,
+        cardText: String,
+        buttonText: String
+    },
 }
 </script>
 

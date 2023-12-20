@@ -58,10 +58,9 @@ export default {
     color: white;
     padding: 2rem;
     padding-left: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
     h2 {
-        font-size: 3rem;
+        font-size: 3.2rem;
         margin-bottom: 70px;
         text-transform: uppercase;
     }
