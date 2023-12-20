@@ -46,12 +46,11 @@ export default {
 </template>
 
 <style scoped lang="scss">
-.app-card-white {}
-
 .info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 310px;
 
     button {
         margin-top: auto;
@@ -61,11 +60,11 @@ export default {
             color: white;
         }
     }
-}
 
-.info hr {
-    width: 50px;
-    border: 1px solid;
-    margin: 25px auto 25px auto;
+    hr {
+        width: 50px;
+        border: 1px solid;
+        margin: 25px auto 25px auto;
+    }
 }
 </style>

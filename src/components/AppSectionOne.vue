@@ -36,7 +36,9 @@ export default {
 <template>
     <section class="app-section-one">
         <div class="container-fluid px-5">
+            <!-- section 1 top -->
             <div class="section-1-top">
+                <!-- section 1 top left -->
                 <div class="section-1-top-left col-6">
                     <p class="text-size"><span class="fw-bold text-uppercase">Hac tellus, felis risus at</span> mattis
                         mattis. Eget euismod semper eget
@@ -50,12 +52,14 @@ export default {
                         consequat, ut. Metus, nullam scelerisque netus viverra dui.</p>
                     <img src="../assets/img/signature.jpg" alt="Chef Signature">
                 </div>
+                <!-- section 1 top right -->
                 <div class="section-1-top-right col-6">
                     <img src="../assets/img/info22x.jpg" alt="Chef" class="w-100">
                     <h6 class="text-size">California Rolls - $22</h6>
                 </div>
 
             </div>
+            <!-- section 1 bottom -->
             <div class="section-1-bottom">
                 <AppCardWhite class="col-3 card-white" :cardImage="cardInfo[0].cardImage" :cardTitle="cardInfo[0].cardTitle"
                     :cardText="cardInfo[0].cardText" :buttonText="cardInfo[0].buttonText" />
@@ -94,7 +98,7 @@ export default {
             }
 
             img {
-                width: 200px;
+                max-width: 200px;
             }
         }
 
@@ -118,13 +122,14 @@ export default {
     .section-1-bottom {
         display: flex;
         justify-content: center;
-        align-items: center;
+        // align-items: flex-end;
         padding: 0 20px;
 
         .card-white {
             margin: 0 10px;
             padding: 0 30px;
             text-align: center;
+            min-height: 380px;
         }
     }
 }
