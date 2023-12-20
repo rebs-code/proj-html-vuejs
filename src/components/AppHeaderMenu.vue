@@ -6,31 +6,38 @@ export default {
             menuItems: [
                 {
                     name: 'Home',
-                    link: '#'
+                    link: '#',
+                    isNew: false
                 },
                 {
                     name: 'Culinary History',
-                    link: '#'
+                    link: '#',
+                    isNew: false
                 },
                 {
                     name: 'Our Team',
-                    link: '#'
+                    link: '#',
+                    isNew: false
                 },
                 {
                     name: 'Our Menu',
-                    link: '#'
+                    link: '#',
+                    isNew: false
                 },
                 {
                     name: 'Takeout',
-                    link: '#'
+                    link: '#',
+                    isNew: true
                 },
                 {
                     name: 'Bulletin',
-                    link: '#'
+                    link: '#',
+                    isNew: false
                 },
                 {
                     name: 'Reservations',
-                    link: '#'
+                    link: '#',
+                    isNew: false
                 },
             ]
         }
@@ -42,6 +49,7 @@ export default {
     <ul>
         <li v-for="item in menuItems">
             <a :href="item.link" v-html="item.name"></a>
+            <span v-if="item.isNew">New</span>
         </li>
         <li> <a href="#"><font-awesome-icon icon="fa-solid fa-cart-shopping" /></a></li>
     </ul>
@@ -55,7 +63,9 @@ ul {
     margin-left: auto;
 
     li {
-        margin-right: 40px;
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
 
         a {
             color: $silver;
@@ -66,6 +76,15 @@ ul {
                 text-decoration: underline;
                 color: white;
             }
+        }
+
+        span {
+            color: $silver;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 0.1rem;
+            margin-left: 5px;
+            border: 1px solid $silver;
         }
     }
 }
