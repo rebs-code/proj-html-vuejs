@@ -3,7 +3,7 @@ import AppButtonComponent from './AppButtonComponent.vue';
 export default {
     name: 'AppCardBlack',
     components: {
-        AppButtonComponent
+        AppButtonComponent,
     },
     props: {
         cardIntro: {
@@ -26,11 +26,15 @@ export default {
             type: String,
 
         },
+        buttonIcon: {
+            type: String,
+
+        },
         applyReverseStyle: {
             type: Boolean,
 
         },
-    }
+    },
 }
 </script>
 
@@ -40,12 +44,12 @@ export default {
         <div class="card-content">
             <div class="title">
                 <hr>
-                <h4 class="text-uppercase">{{ cardIntro }}</h4>
+                <h4 class="text-uppercase mb-0">{{ cardIntro }}</h4>
             </div>
             <div class="info">
                 <h2>{{ cardTitle }}</h2>
                 <p class="text-size">{{ cardText }}</p>
-                <AppButtonComponent :buttonText="buttonText" />
+                <AppButtonComponent :buttonText="buttonText" :buttonIcon="buttonIcon" />
             </div>
 
         </div>
@@ -79,6 +83,7 @@ export default {
     .title {
         display: flex;
         align-items: center;
+
         margin-bottom: 70px;
 
         hr {

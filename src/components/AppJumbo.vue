@@ -10,6 +10,7 @@ export default {
         cardTitle: String,
         cardText: String,
         buttonText: String,
+        buttonIcon: String,
         imageUrl: String,
         applyReverseStyle: Boolean,
     },
@@ -21,7 +22,7 @@ export default {
         <div class="jumbo-container container-fluid" :style="{ backgroundImage: `url(${imageUrl})` }">
             <!-- AppCardBlack component with props -->
             <AppCardBlack class="col-4" :cardIntro="cardIntro" :cardTitle="cardTitle" :cardText="cardText"
-                :buttonText="buttonText" applyReverseStyle />
+                :buttonText="buttonText" :buttonIcon="buttonIcon" applyReverseStyle />
         </div>
     </div>
 </template>

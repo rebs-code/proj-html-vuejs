@@ -6,6 +6,7 @@ import AppSection1 from './components/AppSection1.vue';
 import AppSection2 from './components/AppSection2.vue';
 import AppSection3 from './components/AppSection3.vue';
 import AppSection4 from './components/AppSection4.vue';
+import { faCar } from '@fortawesome/free-solid-svg-icons'
 export default {
   name: 'App',
   components: {
@@ -14,8 +15,13 @@ export default {
     AppSection1,
     AppSection2,
     AppSection3,
-    AppSection4
-  }
+    AppSection4,
+  },
+  data() {
+    return {
+      faCar: faCar
+    }
+  },
 }
 
 </script>
@@ -43,8 +49,8 @@ export default {
     <!-- jumbo component repeats -->
     <AppJumbo cardIntro='Enjoy your meal at home' cardTitle='Takeout now available'
       cardText='Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelrisque nisi in urna nulla. Sit tempor a et nisl, ac felis.'
-      buttonText='View Takeout Menu' imageUrl='img/slider72x-scaled.jpg' class="jumbo-3" applyReverseStyle />
-
+      buttonText='View Takeout Menu' :buttonIcon='faCar' imageUrl='img/slider72x-scaled.jpg' class="jumbo-3"
+      applyReverseStyle />
   </div>
 </template>
 
