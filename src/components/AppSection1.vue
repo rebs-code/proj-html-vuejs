@@ -94,7 +94,7 @@ export default {
             h2 {
                 margin-bottom: 60px;
                 line-height: 1.4;
-                font-size: 2.8rem;
+                font-size: 3.6rem;
             }
 
             img {
