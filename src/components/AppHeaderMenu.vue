@@ -82,7 +82,7 @@ ul {
             color: $silver;
             font-size: 0.7rem;
             font-weight: 700;
-            padding: 0.1rem;
+            padding: 0 0.1rem;
             margin-left: 5px;
             border: 1px solid $silver;
         }
