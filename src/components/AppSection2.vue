@@ -13,7 +13,7 @@ export default {
             <h2 class="py-5 text-center">What critics are saying about us</h2>
             <hr>
 
-            <div class="col-12 section2-top d-flex">
+            <div class="col-12 section2-top d-flex justify-content-end">
                 <div class="col-6 left d-flex align-items-center justify-content-center">
                     <AppCardBlackSecondary cardCritic="Meggy Stewart" cardTitle="New York Times"
                         cardText="Non arcu mauria tortor iutrices mollis tellus euismod fermentum. Habitant amet ticindunt id sapien accusamen sed at."
@@ -48,6 +48,10 @@ export default {
 .section2-top {
     height: 840px;
     background-color: rgb(94, 161, 219);
+    background-image: url('../public/img/blog72x.jpg');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: left;
 
     .left {
         background-color: black;
