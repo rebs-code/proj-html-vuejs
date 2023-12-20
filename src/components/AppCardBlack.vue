@@ -26,12 +26,16 @@ export default {
             type: String,
 
         },
+        applyReverseStyle: {
+            type: Boolean,
+
+        },
     }
 }
 </script>
 
 <template>
-    <div class="app-card-black">
+    <div class="app-card-black" :class="{ 'reverse-style': applyReverseStyle }">
 
         <div class="card-content">
             <div class="title">
@@ -52,6 +56,10 @@ export default {
 <style scoped lang="scss">
 .app-card-black {
     background-color: transparent;
+}
+
+.reverse-style {
+    padding-left: 3rem;
 }
 
 .card-content {
