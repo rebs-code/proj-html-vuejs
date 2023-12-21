@@ -27,7 +27,7 @@ export default {
 
         },
         buttonIcon: {
-            type: String,
+            type: Object,
 
         },
         applyReverseStyle: {

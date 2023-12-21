@@ -10,7 +10,7 @@ export default {
         cardTitle: String,
         cardText: String,
         buttonText: String,
-        buttonIcon: String,
+        buttonIcon: Object,
         imageUrl: String,
         applyReverseStyle: Boolean,
     },

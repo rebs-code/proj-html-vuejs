@@ -1,6 +1,4 @@
 <script>
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faCar } from '@fortawesome/free-solid-svg-icons'
 export default {
     name: 'AppButtonComponent',
     props: {
@@ -11,19 +9,11 @@ export default {
             type: Object,
         },
     },
-    components: {
-        FontAwesomeIcon,
-    },
-    data() {
-        return {
-            faCar: faCar
-        }
-    },
 }
 </script>
 <template>
     <button class="app-button">
-        <font-awesome-icon :icon="buttonIcon" />
+        <font-awesome-icon v-if="buttonIcon" :icon="buttonIcon" />
         {{ buttonText }}
     </button>
 </template>

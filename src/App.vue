@@ -7,6 +7,7 @@ import AppSection2 from './components/AppSection2.vue';
 import AppSection3 from './components/AppSection3.vue';
 import AppSection4 from './components/AppSection4.vue';
 import { faCar } from '@fortawesome/free-solid-svg-icons'
+import AppSectionMenu from './components/AppSectionMenu.vue';
 export default {
   name: 'App',
   components: {
@@ -16,6 +17,7 @@ export default {
     AppSection2,
     AppSection3,
     AppSection4,
+    AppSectionMenu
   },
   data() {
     return {
@@ -51,6 +53,8 @@ export default {
       cardText='Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelrisque nisi in urna nulla. Sit tempor a et nisl, ac felis.'
       buttonText='View Takeout Menu' :buttonIcon='faCar' imageUrl='img/slider72x-scaled.jpg' class="jumbo-3"
       applyReverseStyle />
+    <!-- app section menu -->
+    <AppSectionMenu />
   </div>
 </template>
 

@@ -82,19 +82,19 @@ export default {
                 },
 
             ],
-            components: {
-                AppCardMenu,
-            },
         }
-    }
+    },
+    components: {
+        AppCardMenu,
+    },
 }
 </script>
 
 <template>
     <div class="menu-container">
-        <AppCardMenu />
-        <AppCardMenu />
-        <AppCardMenu />
+        <!-- <AppCardMenu class="col-3" cardTitle: menuItems[0].cardTitle /> -->
+        <AppCardMenu class="col-3" />
+        <AppCardMenu class="col-3" />
     </div>
 </template>
 
@@ -103,5 +103,6 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 1200px;
 }
 </style>
