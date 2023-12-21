@@ -68,6 +68,12 @@ export default {
 </template>
 
 <style scoped lang="scss">
+#app {
+  max-width: 3000px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
 .jumbo-2 {
   height: 880px;
 }

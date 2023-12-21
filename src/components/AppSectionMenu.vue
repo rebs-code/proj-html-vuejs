@@ -91,7 +91,7 @@ export default {
 </script>
 
 <template>
-    <div class="menu-container">
+    <div class="menu-container m-auto">
         <AppCardMenu class="col-3" :cardTitle="menuItems[0].cardTitle" :dishes="menuItems[0].dishes" />
         <AppCardMenu class="col-3 text-white card-center" :cardTitle="menuItems[1].cardTitle" :dishes="menuItems[1].dishes"
             bgImage="img/misc22x.jpg" />
@@ -105,6 +105,7 @@ export default {
     justify-content: center;
     align-items: center;
     height: 1200px;
+    max-width: 1700px;
 }
 
 .card-center {

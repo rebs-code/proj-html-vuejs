@@ -21,7 +21,10 @@ export default {
 
 <template>
     <div class="section-5">
-        <AppCardBlackThird :cardTitle="card.cardTitle" :cardText="card.cardText" :buttonText="card.buttonText" />
+        <div class="container-fluid">
+            <AppCardBlackThird :cardTitle="card.cardTitle" :cardText="card.cardText" :buttonText="card.buttonText" />
+        </div>
+
     </div>
 </template>
 
