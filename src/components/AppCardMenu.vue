@@ -26,8 +26,8 @@ export default {
         <h2 class="text-uppercase fw-bold"> {{ cardTitle }}</h2>
         <ul>
             <li v-for="dish in dishes">
-                <div class="d-flex align-items-center justify-content-between">
-                    <h3 class="text-uppercase fw-bold mb-4">{{ dish.name }}</h3>
+                <div class="d-flex align-items-center justify-content-between mb-4">
+                    <h3 class="text-uppercase fw-bold">{{ dish.name }}</h3>
                     <span>{{ dish.price }}</span>
                 </div>
                 <p class="text-size">{{ dish.description }}</p>
