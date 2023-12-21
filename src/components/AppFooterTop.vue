@@ -28,13 +28,14 @@ export default {
 <template>
     <div class="footer-top d-flex align-items-center justify-content-center">
         <div class="footer-info d-flex flex-column align-items-center">
-            <img src="../assets/img/logo-restaurant-2x-600x115.png" alt="logo footer">
-            <p class="text-size text-white">Quam eu proin sit massa condimentum. Voluptat non pulviqar aliquet nunc. Quam eu
+            <img src="../assets/img/logo-restaurant-2x-600x115.png" alt="logo footer" class="mb-5">
+            <p class="text-size text-white mb-5">Quam eu proin sit massa condimentum. Voluptat non pulviqar aliquet nunc.
+                Quam eu
                 proin sit
                 massa condimentum.
             </p>
             <ul class="d-flex">
-                <li v-for="icon in socialIcons">
+                <li v-for="icon in socialIcons" class="m-2">
                     <div class="social-icon">
                         <font-awesome-icon :icon='icon.icon' />
                     </div>
@@ -51,6 +52,15 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    .footer-info {
+        width: 40%;
+        text-align: center;
+    }
+
+    img {
+        width: 300px;
+    }
 }
 
 .social-icon {
