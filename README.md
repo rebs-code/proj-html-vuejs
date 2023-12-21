@@ -12,6 +12,7 @@ This project is a Vue-based mockup of a restaurant website, intended to exhibit 
 ## Project Structure
 
 The application is structured around Vue.js components. Each component is self-contained, managing its state and style. Components receive data through props and communicate with parent components through events.
+
 ![image](https://github.com/rebs-code/proj-html-vuejs/assets/80966551/59b3c7de-7066-4489-93d3-3091092f70b5)
 
 ## Screenshots
