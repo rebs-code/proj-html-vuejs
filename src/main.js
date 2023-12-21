@@ -16,9 +16,23 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faCar } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 /* add icons to the library */
-library.add(faCartShopping, faStar, faCar);
+library.add(
+  faCartShopping,
+  faStar,
+  faCar,
+  faFacebookF,
+  faTwitter,
+  faYoutube,
+  faInstagram,
+  faLinkedin
+);
 
 //import vue starting file
 import App from "./App.vue";

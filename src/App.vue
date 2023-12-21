@@ -9,6 +9,7 @@ import AppSection4 from './components/AppSection4.vue';
 import { faCar } from '@fortawesome/free-solid-svg-icons'
 import AppSectionMenu from './components/AppSectionMenu.vue';
 import AppSection5 from './components/AppSection5.vue';
+import AppFooter from './components/AppFooter.vue';
 export default {
   name: 'App',
   components: {
@@ -19,7 +20,9 @@ export default {
     AppSection3,
     AppSection4,
     AppSectionMenu,
-    AppSection5
+    AppSection5,
+    AppFooter
+
   },
   data() {
     return {
@@ -59,6 +62,8 @@ export default {
     <AppSectionMenu />
     <!-- app section 5 -->
     <AppSection5 />
+    <!-- app footer component -->
+    <AppFooter />
   </div>
 </template>
 
