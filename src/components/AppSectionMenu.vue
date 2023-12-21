@@ -93,7 +93,7 @@ export default {
 <template>
     <div class="menu-container">
         <AppCardMenu class="col-3" :cardTitle="menuItems[0].cardTitle" :dishes="menuItems[0].dishes" />
-        <AppCardMenu class="col-3 text-white card-bg" :cardTitle="menuItems[1].cardTitle" :dishes="menuItems[1].dishes"
+        <AppCardMenu class="col-3 text-white card-center" :cardTitle="menuItems[1].cardTitle" :dishes="menuItems[1].dishes"
             bgImage="img/misc22x.jpg" />
         <AppCardMenu class="col-3" :cardTitle="menuItems[2].cardTitle" :dishes="menuItems[2].dishes" />
     </div>
@@ -105,5 +105,9 @@ export default {
     justify-content: center;
     align-items: center;
     height: 1200px;
+}
+
+.card-center {
+    margin-bottom: 60px;
 }
 </style>
