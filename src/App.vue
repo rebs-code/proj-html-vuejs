@@ -8,6 +8,7 @@ import AppSection3 from './components/AppSection3.vue';
 import AppSection4 from './components/AppSection4.vue';
 import { faCar } from '@fortawesome/free-solid-svg-icons'
 import AppSectionMenu from './components/AppSectionMenu.vue';
+import AppSection5 from './components/AppSection5.vue';
 export default {
   name: 'App',
   components: {
@@ -17,7 +18,8 @@ export default {
     AppSection2,
     AppSection3,
     AppSection4,
-    AppSectionMenu
+    AppSectionMenu,
+    AppSection5
   },
   data() {
     return {
@@ -55,6 +57,8 @@ export default {
       applyReverseStyle />
     <!-- app section menu -->
     <AppSectionMenu />
+    <!-- app section 5 -->
+    <AppSection5 />
   </div>
 </template>
 

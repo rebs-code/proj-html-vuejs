@@ -47,7 +47,7 @@ export default {
                 <h4 class="text-uppercase mb-0">{{ cardIntro }}</h4>
             </div>
             <div class="info">
-                <h2>{{ cardTitle }}</h2>
+                <h2 class="fw-bold">{{ cardTitle }}</h2>
                 <p class="text-size">{{ cardText }}</p>
                 <AppButtonComponent :buttonText="buttonText" :buttonIcon="buttonIcon" />
             </div>
