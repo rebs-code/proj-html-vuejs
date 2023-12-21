@@ -92,9 +92,9 @@ export default {
 
 <template>
     <div class="menu-container">
-        <!-- <AppCardMenu class="col-3" cardTitle: menuItems[0].cardTitle /> -->
-        <AppCardMenu class="col-3" />
-        <AppCardMenu class="col-3" />
+        <AppCardMenu class="col-3" :cardTitle="menuItems[0].cardTitle" :dishes="menuItems[0].dishes" />
+        <AppCardMenu class="col-3" :cardTitle="menuItems[1].cardTitle" :dishes="menuItems[1].dishes" />
+        <AppCardMenu class="col-3" :cardTitle="menuItems[2].cardTitle" :dishes="menuItems[2].dishes" />
     </div>
 </template>
 

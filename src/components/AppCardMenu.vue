@@ -10,35 +10,14 @@ export default {
 
 <template>
     <div class="card-menu p-5">
-        <h2 class="text-uppercase fw-bold"> Hors douvre</h2>
+        <h2 class="text-uppercase fw-bold"> {{ cardTitle }}</h2>
         <ul>
-            <li>
+            <li v-for="dish in dishes">
                 <div class="d-flex align-items-center justify-content-between">
-                    <h3 class="text-uppercase fw-bold mb-4">Salmon nigiri</h3>
-                    <span>22$</span>
+                    <h3 class="text-uppercase fw-bold mb-4">{{ dish.name }}</h3>
+                    <span>{{ dish.price }}</span>
                 </div>
-                <p class="text-size">eget vulputate vitae quis tutrim blandit sed. quasm nullam sit lacinia</p>
-            </li>
-            <li>
-                <div class="d-flex">
-                    <h3>Salmon nigiri</h3>
-                    <span>22$</span>
-                </div>
-                <p>eget vulputate ooooo quis tutrim blandit sed. quasm nullam sit lacinia</p>
-            </li>
-            <li>
-                <div class="d-flex">
-                    <h3>Salmon nigiri</h3>
-                    <span>22$</span>
-                </div>
-                <p>eget vulputate vitae quis tutrim blandit sed. quasm nullam sit lacinia</p>
-            </li>
-            <li>
-                <div class="d-flex">
-                    <h3>Salmon nigiri</h3>
-                    <span>22$</span>
-                </div>
-                <p>eget vulputate vitae quis tutrim blandit sed. quasm nullam sit lacinia</p>
+                <p class="text-size">{{ dish.description }}</p>
             </li>
         </ul>
     </div>
